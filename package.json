@@ -20,6 +20,8 @@
   "homepage": "https://github.com/rorieArmstrong/Chess#readme",
   "dependencies": {
     "chess": "^0.4.3",
-    "chessboard": "^2.0.0"
+    "chessboard": "^2.0.0",
+    "http-server": "^0.12.3",
+    "jquery": "^3.5.1"
   }
 }

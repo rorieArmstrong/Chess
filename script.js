@@ -1,3 +1,7 @@
+import Chess from chess;
+import ChessBoard from chessboard
+import $ from jquery;
+
 var board,
     game = new Chess();
 
