@@ -1,0 +1,2 @@
+export PATH=$./stockfish-11-win:$(pwd)
+py ./bot/main.py
