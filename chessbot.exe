@@ -1,0 +1,2 @@
+export PATH=C:\Users\rorie\Desktop\Future Proof Code\post-course-activity\Chess\stockfish\Windows\stockfish_20011801_x64.exe:$(pwd)
+py ./bot/main.py

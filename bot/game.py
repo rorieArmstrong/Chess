@@ -1,8 +1,8 @@
 import chess #This is used to deal with the advancement in the game
-import chess.uci #This is used to transform uci notations: for instance the uci "e2e4" corresponds to the san : "1. e4"
+# import chess.uci #This is used to transform uci notations: for instance the uci "e2e4" corresponds to the san : "1. e4"
 import numpy as np
-from bot.board import *
-import bot.reader
+from board import *
+import reader
 import pyautogui
 import cv2 #OpenCV
 import mss #Used to get superfast screenshots

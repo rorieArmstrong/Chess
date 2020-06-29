@@ -2,13 +2,13 @@ import numpy as np
 import cv2 #OpenCV
 import pyautogui #Used to take screenshots and move the mouse
 import chess #This is used to deal with the advancement in the game
-import chess.uci #This is used to transform uci notations: for instance the uci "e2e4" corresponds to the san : "1. e4"
+# import chess.uci #This is used to transform uci notations: for instance the uci "e2e4" corresponds to the san : "1. e4"
 import random #Use the generate random numbers for processing time
 import time #Used to time the executions
 import mss #Used to get superfast screenshots
 import os
 import glob
-import game_state_classes
+import game
 
 def find_chessboard():
     #We do a first classical screenshot to see the screen size:

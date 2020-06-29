@@ -1,8 +1,8 @@
 import tkinter as tk
 import reader
 import cv2 #OpenCV
-import board.py
-from bot.game import *
+import board
+from game import *
 from tkinter.simpledialog import askstring
 
 def clear_logs():
